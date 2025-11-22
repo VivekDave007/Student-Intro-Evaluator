@@ -141,7 +141,7 @@ def evaluate_speech_rate(transcript, duration_sec=52):
 def evaluate_grammar(transcript):
     """Evaluates grammar errors (0-10 points)"""
         # Simple grammar check - give average score since Java-based LanguageTool not available
-      matches = []  # No grammar checking without Java
+    matches = []  # No grammar checking without Java
     word_count = len(transcript.split())
     errors_per_100 = (len(matches) / word_count) * 100 if word_count > 0 else 0
     

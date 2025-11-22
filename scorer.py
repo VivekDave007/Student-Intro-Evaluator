@@ -6,13 +6,11 @@ Implements all rubric criteria with rule-based and NLP methods
 import re
 import language_tool_python
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from sentence_transformers import SentenceTransformer, util
 import numpy as np
 
 # Initialize NLP models
 tool = language_tool_python.LanguageTool('en-US')
 sentiment_analyzer = SentimentIntensityAnalyzer()
-model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Filler words list
 FILLER_WORDS = ['um', 'uh', 'like', 'you know', 'so', 'actually', 'basically', 

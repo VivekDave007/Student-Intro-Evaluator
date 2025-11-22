@@ -3,4 +3,4 @@ gunicorn==21.2.0
 language-tool-python==2.8
 vaderSentiment==3.3.2
 numpy==1.26.4
-sentence-transformers==2.2.2
+

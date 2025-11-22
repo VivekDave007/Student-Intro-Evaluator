@@ -1,8 +1,8 @@
 Flask==3.0.0
 gunicorn==21.2.0
-language-tool-python
 vaderSentiment==3.3.2
 numpy==1.26.4
+
 
 
 
